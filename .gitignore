@@ -1,0 +1,12 @@
+# file system
+.DS_Store
+
+# IDE
+.idea/**
+**.iml
+.vscode/**
+
+# js
+src/**/*.js
+tests/**/*.js
+node_modules

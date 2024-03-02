@@ -1,0 +1,36 @@
+{
+  "name": "huaweicloud-iot-device",
+  "version": "0.0.1",
+  "description": "A TypeScript SDK for Huawei Cloud IoT devices.",
+  "scripts": {
+    "lint": "eslint . --ext js,.ts && prettier . --check",
+    "fix": "eslint . --ext js,.ts --fix && prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huaweicloud/huaweicloud-iot-device-sdk-ts.git"
+  },
+  "keywords": [
+    "device",
+    "huaweicloud",
+    "iot",
+    "sdk",
+    "typescript"
+  ],
+  "author": "shoothzj",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/huaweicloud/huaweicloud-iot-device-sdk-ts/issues"
+  },
+  "homepage": "https://github.com/huaweicloud/huaweicloud-iot-device-sdk-ts#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "prettier": "3.2.5",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "mqtt": "^5.3.6"
+  }
+}
